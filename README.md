@@ -13,3 +13,7 @@ Press SPACE to jump
 Avoid the pipes
 Press R to restart after game over
 Use UP/DOWN and ENTER to select a theme before starting
+
+
+
+
