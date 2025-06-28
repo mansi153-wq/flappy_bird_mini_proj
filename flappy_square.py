@@ -1,25 +1,15 @@
 import pygame
 import sys
 import random
-
-# Initialize Pygame
 pygame.init()
-
-# Screen setup
 WIDTH, HEIGHT = 400, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Flappy Bird")
-
-# Colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
-
-# Clock
 clock = pygame.time.Clock()
 FPS = 60
-
-# Game constants
 gravity = 0.5
 jump_strength = -10
 pipe_gap = 200
@@ -27,8 +17,6 @@ pipe_width = 95
 pipe_velocity = 3
 font = pygame.font.SysFont(None, 24)
 big_font = pygame.font.SysFont(None, 48)
-
-# --- Theme setup ---
 THEMES = {
     "Night": {
         "background": "n.png",
@@ -43,7 +31,6 @@ THEMES = {
 }
 theme_names = list(THEMES.keys())
 current_theme_index = 0
-
 def load_theme(theme_name):
     theme = THEMES[theme_name]
     bg_img = pygame.image.load(theme["background"]).convert_alpha()
@@ -53,8 +40,6 @@ def load_theme(theme_name):
     b_img = pygame.image.load(theme["bird"]).convert_alpha()
     b_img = pygame.transform.scale(b_img, (50, 50))
     return bg_img, p_img, b_img
-
-# Load jump sound (mp3 or wav)
 jump_sound = pygame.mixer.Sound("sound.wav")
 point_sound = pygame.mixer.Sound("point.mp3")
 die_sound= pygame.mixer.Sound("die.mp3")
@@ -68,7 +53,6 @@ def draw_text(text, x, y, font=font, color=(0, 0, 0)):
     screen.blit(rendered, rect)
 
 def draw_scoreboard(score):
-    # Draw a semi-transparent box at the top-left corner
     box_width, box_height = 100, 60
     scoreboard_surface = pygame.Surface((box_width, box_height), pygame.SRCALPHA)
     scoreboard_surface.fill((WHITE))
@@ -145,11 +129,11 @@ def theme_menu():
 
 def main():
     global background_img, pipe_img, bird_img
-    # Theme selection before game starts
+  
     chosen_theme = theme_menu()
     background_img, pipe_img, bird_img = load_theme(chosen_theme)
     
-    # Show "Get Ready" message and wait 5 seconds
+ 
     draw_background()
     draw_text("Get Ready!", WIDTH // 2, HEIGHT // 2, big_font, GREEN)
     pygame.display.flip()
