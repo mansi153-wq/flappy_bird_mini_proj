@@ -15,3 +15,9 @@ Press R to restart after game over
 Use UP/DOWN and ENTER to select a theme before starting
 
 ![image alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20230036.png?raw=true)
+![image_alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20231357.png?raw=true)
+![image_alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20231413.png?raw=true)
+![image_alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20230102.png?raw=true)
+![image_alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20231447.png?raw=true)
+![image_alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20231503.png?raw=true)
+![image_alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20231518.png?raw=true)
