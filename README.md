@@ -4,7 +4,7 @@ Features include:
 
 Theme selection (Day/Night) before each game
 "Get Ready" splash screen with a 5-second countdown before gameplay
-Sound effects for jump, point, and game over
+Sound effects for jump, point, and game over 
 Scoreboard in a styled box at the top-left corner
 Customizable assets for backgrounds, pipes, and bird
 How to play:
