@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/99b45ebc-c566-433a-a897-117e338f1ebf)# flappy_bird_mini_project 
+# flappy_bird_mini_project 
 A Flappy Bird-inspired game built with Python and Pygame.
 Features include:
 
