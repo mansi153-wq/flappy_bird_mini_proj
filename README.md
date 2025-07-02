@@ -14,6 +14,4 @@ Avoid the pipes
 Press R to restart after game over
 Use UP/DOWN and ENTER to select a theme before starting
 
-
-
-
+![image alt](https://github.com/mansi153-wq/flappy_bird_mini_proj/blob/main/Screenshot%202025-06-28%20230036.png?raw=true)
