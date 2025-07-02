@@ -1,3 +1,4 @@
+#main_file
 import pygame
 import sys
 import random
